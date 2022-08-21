@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Despensa Inteligente</string>
+    <string name="action_settings">Configurações</string>
+	<string name="titulo_armazenamentos">Armazenamentos</string>
+	<string name="titulo_produtos">Produtos</string>
+	<string name="titulo_cadastro">Cadastro de Produto</string>
+	<string name="produto_nome">Nome:</string>	
+	<string name="produto_quantidade">Quantidade:</string>
+	<string name="produto_validade">Validade:</string>
+	<string name="alterar">Alterar</string>
+	<string name="incluir">Incluir</string>
+	<string name="excluir">Excluir</string>
+	<string name="cadastro_local">Cadastrar Local</string>
+	<string name="local_nome">Informe o Nome do Local...</string>
+	<string name="id_oculto">Id do produto escondido</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/titulo_cadastro"
+        android:layout_margin="0dip"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:minHeight="75px"
+        android:id="@+id/txtTitleCadastro" />
+
+    <EditText
+        android:hint="@string/id_oculto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIdOculto"
+        android:inputType="number"
+        android:visibility="gone"/>
+
+    <EditText
+        android:hint="@string/produto_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNome"
+        android:inputType="text" />
+
+    <EditText
+        android:hint="@string/produto_quantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQuantidade"
+        android:inputType="number" />
+
+    <EditText
+        android:hint="@string/produto_validade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtValidade"
+        android:clickable="false" 
+        android:cursorVisible="false" 
+        android:focusable="false" 
+        android:focusableInTouchMode="false"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnIncluir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/incluir"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btnAlterar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alterar"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btnExcluir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/excluir"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

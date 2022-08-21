@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/titulo_armazenamentos"
+        android:layout_margin="0dip"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:minHeight="75px"
+        android:id="@+id/txtTitleLocais" />
+   
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitleLocais"
+        android:id="@+id/lstLocais" />
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addLocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+        android:background="@color/abc_decor_view_status_guard_light"
+        app:srcCompat="@android:drawable/ic_input_add" />
+</RelativeLayout>
